@@ -4,7 +4,7 @@ def main():
     dna = []
 
     append_str =""
-    with open("example.txt", "r") as f:
+    with open("rosalind_cons.txt", "r") as f:
         for line in f:
             if line[0] == ">":
                 dna.append(append_str)
