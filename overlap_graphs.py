@@ -15,9 +15,6 @@ def main():
             else:
                 val += line.strip()
         dna_dict[key] = val
-    
-    # for k,v in dna_dict.items():
-    #     print(k,v)
 
     tuples = compare(dna_dict)
     for a,b in tuples:
