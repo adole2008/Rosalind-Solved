@@ -25,7 +25,7 @@ codon_to_amino = {
 }
 
 def main():
-    with open("example.txt", "r") as f:
+    with open("rosalind_prot.txt", "r") as f:
         rna_str = f.read()
 
     translated = ""
