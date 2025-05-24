@@ -3,7 +3,7 @@
 # plug into expected value formula, every couple has exactly 2 offspring
 
 def main():
-    with open("example.txt", "r") as f:
+    with open("rosalind_iev.txt", "r") as f:
         str = f.read().strip()
         arr = list(map(int, str.split(" ")))
 
